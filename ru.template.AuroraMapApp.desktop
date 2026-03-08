@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.template.AuroraMapApp
+Exec=/usr/bin/ru.template.AuroraMapApp
+Name=MapApp
+Name[ru]=Карты
+
+[X-Application]
+Permissions=Internet;Location
+OrganizationName=ru.template
+ApplicationName=AuroraMapApp
+ExecDBus=/usr/bin/ru.template.AuroraMapApp
