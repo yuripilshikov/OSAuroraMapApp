@@ -33,6 +33,9 @@ Page {
         // Ошибка: Cannot assign to non-existent property "acceptedGestures"
         //gesture.acceptedGestures: MapGestureArea.PinchGesture | MapGestureArea.PanGesture | MapGestureArea.RotationGesture
 
+        gesture.panEnabled: true
+        gesture.pinchEnabled: true
+
         Binding {
             target: map
             property: "center"
